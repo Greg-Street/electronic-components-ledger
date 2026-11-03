@@ -1,0 +1,21 @@
+{
+  "name": "electronic-components-ledger",
+  "version": "1.0.0",
+  "private": true,
+  "description": "电子元件库存台账：采购、BOM 用量与库存余量管理",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build && node scripts/build-standalone.mjs",
+    "shortcut": "powershell -NoProfile -ExecutionPolicy Bypass -File scripts/create-desktop-shortcut.ps1",
+    "app": "powershell -NoProfile -ExecutionPolicy Bypass -File scripts/start-app.ps1",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "lucide": "^0.468.0",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "vite": "^6.0.5"
+  }
+}

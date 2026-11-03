@@ -1,0 +1,14 @@
+node_modules/
+dist/
+test-artifacts/
+电子元件库存台账.html
+.env
+.env.*
+*.log
+*.xlsx
+*.xls
+*.csv
+*.bak
+data/
+.vscode/
+.idea/
